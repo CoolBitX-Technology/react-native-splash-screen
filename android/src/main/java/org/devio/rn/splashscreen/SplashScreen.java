@@ -29,7 +29,7 @@ public class SplashScreen {
             public void run() {
                 if (!activity.isFinishing()) {
                     mSplashDialog = new Dialog(activity, themeResId);
-                    mSplashDialog.setContentView(R.layout.launch_screen);
+                    mSplashDialog.setContentView(R.layout.activity_landing_page);
                     mSplashDialog.setCancelable(false);
 
                     if (!mSplashDialog.isShowing()) {
